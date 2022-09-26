@@ -3,7 +3,7 @@
 <p>Basic tools for task and team organization:<p>
 
 <p>Create a form: <p>
-<br>
+  
 <p>frm_add_task (caption "Add task")<p>
 
 <p>------------------------------------------------------------------</p>
