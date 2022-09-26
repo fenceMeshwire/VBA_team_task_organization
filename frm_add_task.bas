@@ -39,6 +39,7 @@ With Sheet1
   .Range("F" & lngCellFree).BorderAround Weight:=xlThin
   ' Clear task value in the form:
   Me.txt_task_description.Value = ""
+  Me.cmb_member.Value = ""
 End With
 
 End Sub
