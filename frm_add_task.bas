@@ -18,21 +18,20 @@ Dim lngCellFree As Long
 lngCellFree = Sheet1.Cells(Sheet1.Rows.Count, 1).End(xlUp).Row + 1
 
 With Sheet1
+
   ' Add data to spreadsheet:
-  If Me.txt_task_description.Value <> "" Then
-    .Cells(lngCellFree, 1).Value = Me.txt_task_description.Value
-  Else
+  If Me.txt_task_description.Value = "" Then
     MsgBox ("Please enter a task.")
     Exit Sub
   End If
   
-  If Me.cmb_member.Value <> "" Then
-    .Cells(lngCellFree, 2).Value = Me.cmb_member.Value
-  Else
+  If Me.cmb_member.Value = "" Then
     MsgBox ("Please enter a team member.")
     Exit Sub
   End If
   
+  .Cells(lngCellFree, 1).Value = Me.txt_task_description.Value
+  .Cells(lngCellFree, 2).Value = Me.cmb_member.Value
   If Me.chk_daily = True Then .Cells(lngCellFree, 3).Value = "X"
   If Me.chk_weekly = True Then .Cells(lngCellFree, 4).Value = "X"
   If Me.chk_monthly = True Then .Cells(lngCellFree, 5).Value = "X"
@@ -44,6 +43,7 @@ With Sheet1
     .Cells(lngCellFree, intCounter).HorizontalAlignment = xlCenter
   Next intCounter
   .Cells(lngCellFree, 1).HorizontalAlignment = xlLeft
+  .UsedRange.Columns.AutoFit
             
   ' Draw border around task list
   .Range("A" & lngCellFree).BorderAround Weight:=xlThin
