@@ -62,6 +62,7 @@ With Sheet1
   Me.chk_monthly = False
   Me.chk_quarterly = False
   Me.chk_yearly = False
+            
 End With
 
 End Sub
