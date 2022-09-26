@@ -6,9 +6,9 @@
 
 <p>frm_add_task (caption "Add task")<p>
 
-<p>(lbl = Label)<p>
-<p>lbl_task_description  txt_task_description  (Text field)</p>
-<p>lbl_team_member       cmb_member            (Combo Box)</p>
+<p><p>
+<p>lbl_task_description (Label) txt_task_description  (Text field)</p>
+<p>lbl_team_member (Label)      cmb_member            (Combo Box)</p>
 
 <p>frame_Frequency (Frame object)</p>
   <p>chk_daily     (Checkbox)</p>
