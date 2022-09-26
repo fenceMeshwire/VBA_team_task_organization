@@ -3,9 +3,9 @@
 <p>Basic tools for task and team organization:<p>
 
 <p>Create a form: <p>
-
-<p>frm_add_task (caption "Add task")<p>
 <br>
+<p>frm_add_task (caption "Add task")<p>
+
 <p>------------------------------------------------------------------</p>
 <p>lbl_task_description (Label), txt_task_description  (Text field)</p>
 <p>lbl_team_member (Label),      cmb_member            (Combo Box)</p>
