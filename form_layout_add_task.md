@@ -6,9 +6,9 @@ Create a form:
 <br>
 frm_add_task (caption "Add task")
 
-<span>(lbl = Label)</span>
-<span>lbl_task_description  txt_task_description  (Text field)</span>
-<span>lbl_team_member       cmb_member            (Combo Box)</span>
+<p>(lbl = Label)</span>
+<p>lbl_task_description  txt_task_description  (Text field)</p>
+<p>lbl_team_member       cmb_member            (Combo Box)</p>
 
 frame_Frequency (Frame object)
   chk_daily     (Checkbox)
