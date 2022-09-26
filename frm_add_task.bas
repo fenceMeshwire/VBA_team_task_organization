@@ -38,11 +38,13 @@ With Sheet1
   If Me.chk_monthly = True Then .Cells(lngCellFree, 5).Value = "X"
   If Me.chk_quarterly = True Then .Cells(lngCellFree, 6).Value = "X"
   If Me.chk_yearly = True Then .Cells(lngCellFree, 7).Value = "X"
+              
   ' Format cells:
   For intCounter = 2 To 6
     .Cells(lngCellFree, intCounter).HorizontalAlignment = xlCenter
   Next intCounter
   .Cells(lngCellFree, 1).HorizontalAlignment = xlLeft
+            
   ' Draw border around task list
   .Range("A" & lngCellFree).BorderAround Weight:=xlThin
   .Range("B" & lngCellFree).BorderAround Weight:=xlThin
@@ -51,14 +53,15 @@ With Sheet1
   .Range("E" & lngCellFree).BorderAround Weight:=xlThin
   .Range("F" & lngCellFree).BorderAround Weight:=xlThin
   .Range("G" & lngCellFree).BorderAround Weight:=xlThin
+            
   ' Clear task value in the form:
   Me.txt_task_description.Value = ""
   Me.cmb_member.Value = ""
   Me.chk_daily = False
-  Me.chk_yearly = False
+  Me.chk_weekly = False
   Me.chk_monthly = False
   Me.chk_quarterly = False
-  Me.chk_weekly = False
+  Me.chk_yearly = False
 End With
 
 End Sub
