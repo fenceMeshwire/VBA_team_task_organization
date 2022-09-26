@@ -6,7 +6,7 @@
 
 <p>frm_add_task (caption "Add task")<p>
 
-<p><p>
+<p>------------------------------------------------------------------</p>
 <p>lbl_task_description (Label), txt_task_description  (Text field)</p>
 <p>lbl_team_member (Label),      cmb_member            (Combo Box)</p>
 
@@ -18,3 +18,4 @@
   <p>chk_yearly    (Checkbox)</p>
 
 <p>cmb_OK (Command Button),     cmb_Cancel (Command Button)</p>
+<p>------------------------------------------------------------------</p>
