@@ -1,14 +1,14 @@
 # VBA_team_task_organization
 
 Basic tools for task and team organization:
-
+<br>
 Create a form: 
-
+<br>
 frm_add_task (caption "Add task")
 
-(lbl = Label)
-lbl_task_description  txt_task_description  (Text field)
-lbl_team_member       cmb_member            (Combo Box)
+<span>(lbl = Label)</span>
+<span>lbl_task_description  txt_task_description  (Text field)</span>
+<span>lbl_team_member       cmb_member            (Combo Box)</span>
 
 frame_Frequency (Frame object)
   chk_daily     (Checkbox)
