@@ -1,5 +1,8 @@
 Option Explicit
 ' -------------------------------------------------------------------------
+' Please make the form first and attach this code to the form.
+' Make and rename two WorkSheets to Sheet1 and Sheet2.
+' -------------------------------------------------------------------------
 Private Sub cmb_Cancel_Click()
 
 Unload frm_add_task
