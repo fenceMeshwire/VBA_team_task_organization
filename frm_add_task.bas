@@ -111,7 +111,7 @@ Next a
 get_sorted_array_az = varEmployee
 
 End Function
-
+' -------------------------------------------------------------------------
 Private Sub create_heading()
 
 Dim intCounter As Integer
