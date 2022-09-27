@@ -1,6 +1,6 @@
 <h3>VBA_team_task_organization</h3>
 
-<p>Basic tool for gathering the tasks of a team for organization:<p>
+<p>Basic tool for gathering the tasks of a team for work organization:<p>
 
 <p>Create a form: <p>
   
