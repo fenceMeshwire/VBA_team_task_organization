@@ -1,7 +1,7 @@
 Option Explicit
 ' -------------------------------------------------------------------------
 ' Please create the form first and attach this code to the form.
-' Create and rename two WorkSheets to Sheet1 and Sheet2.
+' Create and rename two WorkSheets (Sheet1 and Sheet2).
 ' -------------------------------------------------------------------------
 Private Sub cmb_Cancel_Click()
 
